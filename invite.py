@@ -288,7 +288,7 @@ async def start_yukki():
         try:
             print("Booting Up The Client 2")
             await ydk.start()
-            
+
             await ydk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await ydk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -319,7 +319,7 @@ async def start_yukki():
         try:
             print("Booting Up The Client 3")
             await wdk.start()
-            
+
             await wdk(functions.channels.JoinChannelRequest(channel="@{grp}"))
             botme = await wdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -358,7 +358,7 @@ async def start_yukki():
         try:
             print("Booting Up The Client 4")
             await hdk.start()
-            
+
             await hdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await hdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -397,7 +397,7 @@ async def start_yukki():
         try:
             print("Booting Up The Client 5")
             await sdk.start()
-            
+
             await sdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await sdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -436,7 +436,7 @@ async def start_yukki():
         try:
             print("Booting Up The Client 6")
             await adk.start()
-            
+
             await adk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await adk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -475,7 +475,7 @@ async def start_yukki():
         try:
             print("Booting Up The Client 7")
             await bdk.start()
-            
+
             await bdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await bdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -514,7 +514,7 @@ async def start_yukki():
         try:
             print("Booting Up The Client 8")
             await cdk.start()
-            
+
             await cdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await cdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -545,7 +545,7 @@ async def start_yukki():
         try:
             print("Booting Up The Client 9")
             await ddk.start()
-            
+
             await ddk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await ddk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -576,7 +576,7 @@ async def start_yukki():
         try:
             print("Booting Up The Client 10")
             await edk.start()
-            
+
             await edk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await edk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -607,7 +607,7 @@ async def start_yukki():
         try:
             print("Booting Up The Client 11")
             await vkk.start()
-            
+
             await vkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await vkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -637,9 +637,9 @@ async def start_yukki():
         try:
             print("Booting Up The Client 12")
             await kkk.start()
-            
+
             await kkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            
+
             botme = await kkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -669,9 +669,9 @@ async def start_yukki():
         try:
             print("Booting Up The Client 13")
             await lkk.start()
-            
+
             await lkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            
+
             botme = await lkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -701,9 +701,9 @@ async def start_yukki():
         try:
             print("Booting Up The Client 14")
             await mkk.start()
-            
+
             await mkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            
+
             botme = await mkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -733,9 +733,9 @@ async def start_yukki():
         try:
             print("Booting Up The Client 15")
             await sid.start()
-            
+
             await sid(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            
+
             botme = await sid.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
