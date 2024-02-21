@@ -7,7 +7,6 @@ import time
 from datetime import datetime
 from os import execl
 
-
 from telethon.network.connection.tcpabridged import ConnectionTcpAbridged
 from telethon.sessions import StringSession 
 from telethon import TelegramClient, events
